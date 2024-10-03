@@ -1,0 +1,111 @@
+html{
+
+    height: 100%;
+
+}
+
+
+body{
+
+    background-color: #313131;
+    height: 100%;
+
+}
+
+.pageTitle{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+
+}
+
+.labelTitle{
+
+    color: #91EB4A;
+    font-size: 40px;
+    font-family: Arial;
+
+}
+
+
+.labelTexts{
+
+    color: white;
+    text-align: right;
+    font-family: Arial;
+    font-size: 20px;
+    top: 50px;
+    left: 200px;
+    border: 50px;
+    position: relative;
+
+}
+
+.gaps{
+
+    height: 20px;
+
+}
+
+.objectOne{
+
+    top: 50px;
+    left: 350px;
+    width: 85px;
+    height:85px;
+    position: relative;
+    background: #91EB4A;
+    animation: move-object 2s linear infinite;
+
+}
+
+.objectTwo{
+
+    top: 50px;
+    left: 350px;
+    width: 85px;
+    height:85px;
+    position: relative;
+    background: #91EB4A;
+    animation: move-object 2s ease-in infinite;
+
+}
+
+
+.objectThree{
+
+    top: 50px;
+    left: 350px;
+    width: 85px;
+    height:85px;
+    position: relative;
+    background: #91EB4A;
+    animation: move-object 2s ease-out infinite;
+
+}
+
+
+.objectFour{
+
+    top: 50px;
+    left: 350px;
+    width: 85px;
+    height:85px;
+    position: relative;
+    background: #91EB4A;
+    animation: move-object 2s ease-in-out infinite;
+
+}
+
+
+@keyframes move-object {
+
+    100% {
+
+        transform: translate(900px);
+      
+    }
+  
+  }
