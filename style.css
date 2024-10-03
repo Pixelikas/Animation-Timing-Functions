@@ -9,6 +9,7 @@ body{
 
     background-color: #313131;
     height: 100%;
+    margin: 0;
 
 }
 
@@ -17,7 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10%;
+    height: 15%;
 
 }
 
@@ -28,7 +29,6 @@ body{
     font-family: Arial;
 
 }
-
 
 .labelTexts{
 
@@ -53,8 +53,8 @@ body{
 
     top: 50px;
     left: 350px;
-    width: 85px;
-    height:85px;
+    width: 80px;
+    height:80px;
     position: relative;
     background: #91EB4A;
     animation: move-object 2s linear infinite;
@@ -65,8 +65,8 @@ body{
 
     top: 50px;
     left: 350px;
-    width: 85px;
-    height:85px;
+    width: 80px;
+    height:80px;
     position: relative;
     background: #91EB4A;
     animation: move-object 2s ease-in infinite;
@@ -78,8 +78,8 @@ body{
 
     top: 50px;
     left: 350px;
-    width: 85px;
-    height:85px;
+    width: 80px;
+    height:80px;
     position: relative;
     background: #91EB4A;
     animation: move-object 2s ease-out infinite;
@@ -91,8 +91,8 @@ body{
 
     top: 50px;
     left: 350px;
-    width: 85px;
-    height:85px;
+    width: 80px;
+    height:80px;
     position: relative;
     background: #91EB4A;
     animation: move-object 2s ease-in-out infinite;
